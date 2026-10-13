@@ -1,0 +1,36 @@
+{
+  "input_text": "Rutva reads a book at the library. The teacher sends the report to the student.",
+  "named_entities": [
+    {
+      "text": "Rutva",
+      "label": "GPE",
+      "description": "Countries, cities, states"
+    }
+  ],
+  "semantic_frames": [
+    {
+      "sentence": "Rutva reads a book at the library.",
+      "who": "Rutva",
+      "action": "read",
+      "what_or_whom": [
+        "book"
+      ],
+      "indirect_objects": [],
+      "prepositional_phrases": [
+        "at the library"
+      ]
+    },
+    {
+      "sentence": "The teacher sends the report to the student.",
+      "who": "teacher",
+      "action": "send",
+      "what_or_whom": [
+        "report"
+      ],
+      "indirect_objects": [],
+      "prepositional_phrases": [
+        "to the student"
+      ]
+    }
+  ]
+}

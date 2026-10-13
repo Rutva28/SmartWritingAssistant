@@ -1,0 +1,1126 @@
+[
+  {
+    "sample_id": 1,
+    "raw_text": "Rutva reads a book at the library.",
+    "corrected_text": "Rutva reads a book at the library.",
+    "syntax_results": {
+      "text": "Rutva reads a book at the library.",
+      "sentences": [
+        {
+          "sentence": "Rutva reads a book at the library.",
+          "tokens": [
+            {
+              "text": "Rutva",
+              "lemma": "Rutva",
+              "pos": "PROPN",
+              "tag": "NNP",
+              "dependency": "nsubj",
+              "head": "reads"
+            },
+            {
+              "text": "reads",
+              "lemma": "read",
+              "pos": "VERB",
+              "tag": "VBZ",
+              "dependency": "ROOT",
+              "head": "reads"
+            },
+            {
+              "text": "a",
+              "lemma": "a",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "book"
+            },
+            {
+              "text": "book",
+              "lemma": "book",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "reads"
+            },
+            {
+              "text": "at",
+              "lemma": "at",
+              "pos": "ADP",
+              "tag": "IN",
+              "dependency": "prep",
+              "head": "book"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "library"
+            },
+            {
+              "text": "library",
+              "lemma": "library",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "pobj",
+              "head": "at"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "reads"
+            }
+          ]
+        }
+      ],
+      "entities": [
+        {
+          "text": "Rutva",
+          "label": "GPE",
+          "description": "Countries, cities, states"
+        }
+      ],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "Rutva reads a book at the library.",
+        "who": "Rutva",
+        "action": "read",
+        "what_or_whom": [
+          "book"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": [
+          "at the library"
+        ]
+      }
+    ],
+    "named_entities": [
+      {
+        "text": "Rutva",
+        "label": "GPE",
+        "description": "Countries, cities, states"
+      }
+    ],
+    "word_senses": [],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 2,
+    "raw_text": "The teacher sends the report to the student.",
+    "corrected_text": "The teacher sends the report to the student.",
+    "syntax_results": {
+      "text": "The teacher sends the report to the student.",
+      "sentences": [
+        {
+          "sentence": "The teacher sends the report to the student.",
+          "tokens": [
+            {
+              "text": "The",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "teacher"
+            },
+            {
+              "text": "teacher",
+              "lemma": "teacher",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "nsubj",
+              "head": "sends"
+            },
+            {
+              "text": "sends",
+              "lemma": "send",
+              "pos": "VERB",
+              "tag": "VBZ",
+              "dependency": "ROOT",
+              "head": "sends"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "report"
+            },
+            {
+              "text": "report",
+              "lemma": "report",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "sends"
+            },
+            {
+              "text": "to",
+              "lemma": "to",
+              "pos": "ADP",
+              "tag": "IN",
+              "dependency": "prep",
+              "head": "sends"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "student"
+            },
+            {
+              "text": "student",
+              "lemma": "student",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "pobj",
+              "head": "to"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "sends"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "The teacher sends the report to the student.",
+        "who": "teacher",
+        "action": "send",
+        "what_or_whom": [
+          "report"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": [
+          "to the student"
+        ]
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 3,
+    "raw_text": "She studied hard because she wanted good marks.",
+    "corrected_text": "She studied hard because she wanted good marks.",
+    "syntax_results": {
+      "text": "She studied hard because she wanted good marks.",
+      "sentences": [
+        {
+          "sentence": "She studied hard because she wanted good marks.",
+          "tokens": [
+            {
+              "text": "She",
+              "lemma": "she",
+              "pos": "PRON",
+              "tag": "PRP",
+              "dependency": "nsubj",
+              "head": "studied"
+            },
+            {
+              "text": "studied",
+              "lemma": "study",
+              "pos": "VERB",
+              "tag": "VBD",
+              "dependency": "ROOT",
+              "head": "studied"
+            },
+            {
+              "text": "hard",
+              "lemma": "hard",
+              "pos": "ADV",
+              "tag": "RB",
+              "dependency": "advmod",
+              "head": "studied"
+            },
+            {
+              "text": "because",
+              "lemma": "because",
+              "pos": "SCONJ",
+              "tag": "IN",
+              "dependency": "mark",
+              "head": "wanted"
+            },
+            {
+              "text": "she",
+              "lemma": "she",
+              "pos": "PRON",
+              "tag": "PRP",
+              "dependency": "nsubj",
+              "head": "wanted"
+            },
+            {
+              "text": "wanted",
+              "lemma": "want",
+              "pos": "VERB",
+              "tag": "VBD",
+              "dependency": "advcl",
+              "head": "studied"
+            },
+            {
+              "text": "good",
+              "lemma": "good",
+              "pos": "ADJ",
+              "tag": "JJ",
+              "dependency": "amod",
+              "head": "marks"
+            },
+            {
+              "text": "marks",
+              "lemma": "mark",
+              "pos": "NOUN",
+              "tag": "NNS",
+              "dependency": "dobj",
+              "head": "wanted"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "studied"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "She studied hard because she wanted good marks.",
+        "who": "she",
+        "action": "study",
+        "what_or_whom": [
+          "marks"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": []
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [],
+    "discourse_relations": [
+      {
+        "connective": "because",
+        "relation": "reason"
+      }
+    ],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 4,
+    "raw_text": "However, the exam was difficult.",
+    "corrected_text": "However, the exam was difficult.",
+    "syntax_results": {
+      "text": "However, the exam was difficult.",
+      "sentences": [
+        {
+          "sentence": "However, the exam was difficult.",
+          "tokens": [
+            {
+              "text": "However",
+              "lemma": "however",
+              "pos": "ADV",
+              "tag": "RB",
+              "dependency": "advmod",
+              "head": "was"
+            },
+            {
+              "text": ",",
+              "lemma": ",",
+              "pos": "PUNCT",
+              "tag": ",",
+              "dependency": "punct",
+              "head": "was"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "exam"
+            },
+            {
+              "text": "exam",
+              "lemma": "exam",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "nsubj",
+              "head": "was"
+            },
+            {
+              "text": "was",
+              "lemma": "be",
+              "pos": "AUX",
+              "tag": "VBD",
+              "dependency": "ROOT",
+              "head": "was"
+            },
+            {
+              "text": "difficult",
+              "lemma": "difficult",
+              "pos": "ADJ",
+              "tag": "JJ",
+              "dependency": "acomp",
+              "head": "was"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "was"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "However, the exam was difficult.",
+        "who": "exam",
+        "action": "be",
+        "what_or_whom": [],
+        "indirect_objects": [],
+        "prepositional_phrases": []
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [],
+    "discourse_relations": [
+      {
+        "connective": "However",
+        "relation": "contrast"
+      }
+    ],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 5,
+    "raw_text": "Could you explain this question?",
+    "corrected_text": "Could you explain this question?",
+    "syntax_results": {
+      "text": "Could you explain this question?",
+      "sentences": [
+        {
+          "sentence": "Could you explain this question?",
+          "tokens": [
+            {
+              "text": "Could",
+              "lemma": "could",
+              "pos": "AUX",
+              "tag": "MD",
+              "dependency": "aux",
+              "head": "explain"
+            },
+            {
+              "text": "you",
+              "lemma": "you",
+              "pos": "PRON",
+              "tag": "PRP",
+              "dependency": "nsubj",
+              "head": "explain"
+            },
+            {
+              "text": "explain",
+              "lemma": "explain",
+              "pos": "VERB",
+              "tag": "VB",
+              "dependency": "ROOT",
+              "head": "explain"
+            },
+            {
+              "text": "this",
+              "lemma": "this",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "question"
+            },
+            {
+              "text": "question",
+              "lemma": "question",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "explain"
+            },
+            {
+              "text": "?",
+              "lemma": "?",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "explain"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "Could you explain this question?",
+        "who": "you",
+        "action": "explain",
+        "what_or_whom": [
+          "question"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": []
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": [
+      {
+        "text": "Could you explain this question?",
+        "inferred_intent": "Polite request",
+        "method": "rule-based pattern matching"
+      }
+    ]
+  },
+  {
+    "sample_id": 6,
+    "raw_text": "They deposited money at the bank.",
+    "corrected_text": "They deposited money at the bank.",
+    "syntax_results": {
+      "text": "They deposited money at the bank.",
+      "sentences": [
+        {
+          "sentence": "They deposited money at the bank.",
+          "tokens": [
+            {
+              "text": "They",
+              "lemma": "they",
+              "pos": "PRON",
+              "tag": "PRP",
+              "dependency": "nsubj",
+              "head": "deposited"
+            },
+            {
+              "text": "deposited",
+              "lemma": "deposit",
+              "pos": "VERB",
+              "tag": "VBD",
+              "dependency": "ROOT",
+              "head": "deposited"
+            },
+            {
+              "text": "money",
+              "lemma": "money",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "deposited"
+            },
+            {
+              "text": "at",
+              "lemma": "at",
+              "pos": "ADP",
+              "tag": "IN",
+              "dependency": "prep",
+              "head": "deposited"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "bank"
+            },
+            {
+              "text": "bank",
+              "lemma": "bank",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "pobj",
+              "head": "at"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "deposited"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "They deposited money at the bank.",
+        "who": "They",
+        "action": "deposit",
+        "what_or_whom": [
+          "money"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": [
+          "at the bank"
+        ]
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [
+      {
+        "word": "bank",
+        "sentence": "They deposited money at the bank.",
+        "selected_sense": "depository_financial_institution.n.01",
+        "definition": "a financial institution that accepts deposits and channels the money into lending activities",
+        "example_sentences": [
+          "he cashed a check at the bank",
+          "that bank holds the mortgage on my home"
+        ],
+        "overlap_score": 3
+      }
+    ],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 7,
+    "raw_text": "The cricket player hit the ball with a bat.",
+    "corrected_text": "The cricket player hit the ball with a bat.",
+    "syntax_results": {
+      "text": "The cricket player hit the ball with a bat.",
+      "sentences": [
+        {
+          "sentence": "The cricket player hit the ball with a bat.",
+          "tokens": [
+            {
+              "text": "The",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "player"
+            },
+            {
+              "text": "cricket",
+              "lemma": "cricket",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "compound",
+              "head": "player"
+            },
+            {
+              "text": "player",
+              "lemma": "player",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "nsubj",
+              "head": "hit"
+            },
+            {
+              "text": "hit",
+              "lemma": "hit",
+              "pos": "VERB",
+              "tag": "VBD",
+              "dependency": "ROOT",
+              "head": "hit"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "ball"
+            },
+            {
+              "text": "ball",
+              "lemma": "ball",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "hit"
+            },
+            {
+              "text": "with",
+              "lemma": "with",
+              "pos": "ADP",
+              "tag": "IN",
+              "dependency": "prep",
+              "head": "hit"
+            },
+            {
+              "text": "a",
+              "lemma": "a",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "bat"
+            },
+            {
+              "text": "bat",
+              "lemma": "bat",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "pobj",
+              "head": "with"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "hit"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "The cricket player hit the ball with a bat.",
+        "who": "player",
+        "action": "hit",
+        "what_or_whom": [
+          "ball"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": [
+          "with a bat"
+        ]
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [
+      {
+        "word": "bat",
+        "sentence": "The cricket player hit the ball with a bat.",
+        "selected_sense": "bat.v.01",
+        "definition": "strike with, or as if with a baseball bat",
+        "example_sentences": [
+          "bat the ball"
+        ],
+        "overlap_score": 4
+      }
+    ],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 8,
+    "raw_text": "Please turn on the light in the room.",
+    "corrected_text": "Please turn on the light in the room.",
+    "syntax_results": {
+      "text": "Please turn on the light in the room.",
+      "sentences": [
+        {
+          "sentence": "Please turn on the light in the room.",
+          "tokens": [
+            {
+              "text": "Please",
+              "lemma": "please",
+              "pos": "INTJ",
+              "tag": "UH",
+              "dependency": "intj",
+              "head": "turn"
+            },
+            {
+              "text": "turn",
+              "lemma": "turn",
+              "pos": "VERB",
+              "tag": "VB",
+              "dependency": "ROOT",
+              "head": "turn"
+            },
+            {
+              "text": "on",
+              "lemma": "on",
+              "pos": "ADP",
+              "tag": "RP",
+              "dependency": "prep",
+              "head": "turn"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "light"
+            },
+            {
+              "text": "light",
+              "lemma": "light",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "turn"
+            },
+            {
+              "text": "in",
+              "lemma": "in",
+              "pos": "ADP",
+              "tag": "IN",
+              "dependency": "prep",
+              "head": "turn"
+            },
+            {
+              "text": "the",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "room"
+            },
+            {
+              "text": "room",
+              "lemma": "room",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "pobj",
+              "head": "in"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "turn"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "Please turn on the light in the room.",
+        "who": null,
+        "action": "turn",
+        "what_or_whom": [
+          "light"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": [
+          "on",
+          "in the room"
+        ]
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [
+      {
+        "word": "light",
+        "sentence": "Please turn on the light in the room.",
+        "selected_sense": "light.n.07",
+        "definition": "the visual effect of illumination on objects or scenes as created in pictures",
+        "example_sentences": [
+          "he could paint the lightest light and the darkest dark"
+        ],
+        "overlap_score": 3
+      }
+    ],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": [
+      {
+        "text": "Please turn on the light in the room.",
+        "inferred_intent": "Polite request",
+        "method": "rule-based pattern matching"
+      }
+    ]
+  },
+  {
+    "sample_id": 9,
+    "raw_text": "The student writes a good report.",
+    "corrected_text": "The student writes a good report.",
+    "syntax_results": {
+      "text": "The student writes a good report.",
+      "sentences": [
+        {
+          "sentence": "The student writes a good report.",
+          "tokens": [
+            {
+              "text": "The",
+              "lemma": "the",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "student"
+            },
+            {
+              "text": "student",
+              "lemma": "student",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "nsubj",
+              "head": "writes"
+            },
+            {
+              "text": "writes",
+              "lemma": "write",
+              "pos": "VERB",
+              "tag": "VBZ",
+              "dependency": "ROOT",
+              "head": "writes"
+            },
+            {
+              "text": "a",
+              "lemma": "a",
+              "pos": "DET",
+              "tag": "DT",
+              "dependency": "det",
+              "head": "report"
+            },
+            {
+              "text": "good",
+              "lemma": "good",
+              "pos": "ADJ",
+              "tag": "JJ",
+              "dependency": "amod",
+              "head": "report"
+            },
+            {
+              "text": "report",
+              "lemma": "report",
+              "pos": "NOUN",
+              "tag": "NN",
+              "dependency": "dobj",
+              "head": "writes"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "writes"
+            }
+          ]
+        }
+      ],
+      "entities": [],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "The student writes a good report.",
+        "who": "student",
+        "action": "write",
+        "what_or_whom": [
+          "report"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": []
+      }
+    ],
+    "named_entities": [],
+    "word_senses": [],
+    "discourse_relations": [],
+    "coreference_chains": [],
+    "indirect_requests": []
+  },
+  {
+    "sample_id": 10,
+    "raw_text": "Rutva reviewed her notes. Therefore, she felt prepared.",
+    "corrected_text": "Rutva reviewed her notes. Therefore, she felt prepared.",
+    "syntax_results": {
+      "text": "Rutva reviewed her notes. Therefore, she felt prepared.",
+      "sentences": [
+        {
+          "sentence": "Rutva reviewed her notes.",
+          "tokens": [
+            {
+              "text": "Rutva",
+              "lemma": "Rutva",
+              "pos": "PROPN",
+              "tag": "NNP",
+              "dependency": "nsubj",
+              "head": "reviewed"
+            },
+            {
+              "text": "reviewed",
+              "lemma": "review",
+              "pos": "VERB",
+              "tag": "VBD",
+              "dependency": "ROOT",
+              "head": "reviewed"
+            },
+            {
+              "text": "her",
+              "lemma": "her",
+              "pos": "PRON",
+              "tag": "PRP$",
+              "dependency": "poss",
+              "head": "notes"
+            },
+            {
+              "text": "notes",
+              "lemma": "note",
+              "pos": "NOUN",
+              "tag": "NNS",
+              "dependency": "dobj",
+              "head": "reviewed"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "reviewed"
+            }
+          ]
+        },
+        {
+          "sentence": "Therefore, she felt prepared.",
+          "tokens": [
+            {
+              "text": "Therefore",
+              "lemma": "therefore",
+              "pos": "ADV",
+              "tag": "RB",
+              "dependency": "advmod",
+              "head": "felt"
+            },
+            {
+              "text": ",",
+              "lemma": ",",
+              "pos": "PUNCT",
+              "tag": ",",
+              "dependency": "punct",
+              "head": "felt"
+            },
+            {
+              "text": "she",
+              "lemma": "she",
+              "pos": "PRON",
+              "tag": "PRP",
+              "dependency": "nsubj",
+              "head": "felt"
+            },
+            {
+              "text": "felt",
+              "lemma": "feel",
+              "pos": "VERB",
+              "tag": "VBD",
+              "dependency": "ROOT",
+              "head": "felt"
+            },
+            {
+              "text": "prepared",
+              "lemma": "prepare",
+              "pos": "VERB",
+              "tag": "VBN",
+              "dependency": "acomp",
+              "head": "felt"
+            },
+            {
+              "text": ".",
+              "lemma": ".",
+              "pos": "PUNCT",
+              "tag": ".",
+              "dependency": "punct",
+              "head": "felt"
+            }
+          ]
+        }
+      ],
+      "entities": [
+        {
+          "text": "Rutva",
+          "label": "PERSON",
+          "description": "People, including fictional"
+        }
+      ],
+      "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+    },
+    "semantic_frames": [
+      {
+        "sentence": "Rutva reviewed her notes.",
+        "who": "Rutva",
+        "action": "review",
+        "what_or_whom": [
+          "notes"
+        ],
+        "indirect_objects": [],
+        "prepositional_phrases": []
+      },
+      {
+        "sentence": "Therefore, she felt prepared.",
+        "who": "she",
+        "action": "feel",
+        "what_or_whom": [],
+        "indirect_objects": [],
+        "prepositional_phrases": []
+      }
+    ],
+    "named_entities": [
+      {
+        "text": "Rutva",
+        "label": "PERSON",
+        "description": "People, including fictional"
+      }
+    ],
+    "word_senses": [],
+    "discourse_relations": [
+      {
+        "connective": "Therefore",
+        "relation": "result"
+      }
+    ],
+    "coreference_chains": [
+      {
+        "antecedent": "Rutva",
+        "pronoun": "her",
+        "sentence": "Rutva reviewed her notes.",
+        "method": "recent-mention heuristic"
+      },
+      {
+        "antecedent": "Rutva",
+        "pronoun": "she",
+        "sentence": "Therefore, she felt prepared.",
+        "method": "recent-mention heuristic"
+      }
+    ],
+    "indirect_requests": []
+  }
+]

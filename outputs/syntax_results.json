@@ -1,0 +1,111 @@
+{
+  "text": "Rutva reviewed her notes. Therefore, she felt prepared.",
+  "sentences": [
+    {
+      "sentence": "Rutva reviewed her notes.",
+      "tokens": [
+        {
+          "text": "Rutva",
+          "lemma": "Rutva",
+          "pos": "PROPN",
+          "tag": "NNP",
+          "dependency": "nsubj",
+          "head": "reviewed"
+        },
+        {
+          "text": "reviewed",
+          "lemma": "review",
+          "pos": "VERB",
+          "tag": "VBD",
+          "dependency": "ROOT",
+          "head": "reviewed"
+        },
+        {
+          "text": "her",
+          "lemma": "her",
+          "pos": "PRON",
+          "tag": "PRP$",
+          "dependency": "poss",
+          "head": "notes"
+        },
+        {
+          "text": "notes",
+          "lemma": "note",
+          "pos": "NOUN",
+          "tag": "NNS",
+          "dependency": "dobj",
+          "head": "reviewed"
+        },
+        {
+          "text": ".",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "tag": ".",
+          "dependency": "punct",
+          "head": "reviewed"
+        }
+      ]
+    },
+    {
+      "sentence": "Therefore, she felt prepared.",
+      "tokens": [
+        {
+          "text": "Therefore",
+          "lemma": "therefore",
+          "pos": "ADV",
+          "tag": "RB",
+          "dependency": "advmod",
+          "head": "felt"
+        },
+        {
+          "text": ",",
+          "lemma": ",",
+          "pos": "PUNCT",
+          "tag": ",",
+          "dependency": "punct",
+          "head": "felt"
+        },
+        {
+          "text": "she",
+          "lemma": "she",
+          "pos": "PRON",
+          "tag": "PRP",
+          "dependency": "nsubj",
+          "head": "felt"
+        },
+        {
+          "text": "felt",
+          "lemma": "feel",
+          "pos": "VERB",
+          "tag": "VBD",
+          "dependency": "ROOT",
+          "head": "felt"
+        },
+        {
+          "text": "prepared",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "tag": "VBN",
+          "dependency": "acomp",
+          "head": "felt"
+        },
+        {
+          "text": ".",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "tag": ".",
+          "dependency": "punct",
+          "head": "felt"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "text": "Rutva",
+      "label": "PERSON",
+      "description": "People, including fictional"
+    }
+  ],
+  "dependency_visualization": "C:\\Users\\RUTVA\\SmartWritingAssistant\\outputs\\dependency_parse.html"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "sample_id": 1,
+    "corrections": 0,
+    "entities": 1,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 2,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 3,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 1
+  },
+  {
+    "sample_id": 4,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 1
+  },
+  {
+    "sample_id": 5,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 6,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 7,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 8,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 9,
+    "corrections": 0,
+    "entities": 0,
+    "coreference_chains": 0,
+    "discourse_relations": 0
+  },
+  {
+    "sample_id": 10,
+    "corrections": 0,
+    "entities": 1,
+    "coreference_chains": 2,
+    "discourse_relations": 1
+  }
+]

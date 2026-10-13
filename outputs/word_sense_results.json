@@ -1,0 +1,68 @@
+{
+  "method": "Simplified Lesk-style WordNet gloss overlap",
+  "results": [
+    {
+      "word": "bank",
+      "sentence": "She deposited money at the bank.",
+      "selected_sense": "depository_financial_institution.n.01",
+      "definition": "a financial institution that accepts deposits and channels the money into lending activities",
+      "example_sentences": [
+        "he cashed a check at the bank",
+        "that bank holds the mortgage on my home"
+      ],
+      "overlap_score": 3
+    },
+    {
+      "word": "bank",
+      "sentence": "They sat on the river bank.",
+      "selected_sense": "bank.n.01",
+      "definition": "sloping land (especially the slope beside a body of water)",
+      "example_sentences": [
+        "they pulled the canoe up on the bank",
+        "he sat on the bank of the river and watched the currents"
+      ],
+      "overlap_score": 5
+    },
+    {
+      "word": "bat",
+      "sentence": "The cricket player hit the ball with a bat.",
+      "selected_sense": "bat.v.01",
+      "definition": "strike with, or as if with a baseball bat",
+      "example_sentences": [
+        "bat the ball"
+      ],
+      "overlap_score": 4
+    },
+    {
+      "word": "bat",
+      "sentence": "A bat flew out of the cave at night.",
+      "selected_sense": "bat.n.02",
+      "definition": "(baseball) a turn trying to get a hit",
+      "example_sentences": [
+        "he was at bat when it happened",
+        "he got four hits in four at-bats"
+      ],
+      "overlap_score": 2
+    },
+    {
+      "word": "light",
+      "sentence": "Please turn on the light in the room.",
+      "selected_sense": "light.n.07",
+      "definition": "the visual effect of illumination on objects or scenes as created in pictures",
+      "example_sentences": [
+        "he could paint the lightest light and the darkest dark"
+      ],
+      "overlap_score": 3
+    },
+    {
+      "word": "light",
+      "sentence": "This bag is very light to carry.",
+      "selected_sense": "luminosity.n.01",
+      "definition": "the quality of being luminous; emitting or reflecting light",
+      "example_sentences": [
+        "its luminosity is measured relative to that of our sun"
+      ],
+      "overlap_score": 2
+    }
+  ]
+}

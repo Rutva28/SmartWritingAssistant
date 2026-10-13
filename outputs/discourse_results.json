@@ -1,0 +1,53 @@
+{
+    "input_text": "Rutva studied for the exam because she wanted a good result. However, the exam was difficult. Therefore, she reviewed her notes. Could you explain the difficult question?",
+    "sentences": [
+        "Rutva studied for the exam because she wanted a good result.",
+        "However, the exam was difficult.",
+        "Therefore, she reviewed her notes.",
+        "Could you explain the difficult question?"
+    ],
+    "coreference": {
+        "coreference_chains": [
+            {
+                "antecedent": "Rutva",
+                "pronoun": "she",
+                "sentence": "Rutva studied for the exam because she wanted a good result.",
+                "method": "recent-mention heuristic"
+            },
+            {
+                "antecedent": "Rutva",
+                "pronoun": "she",
+                "sentence": "Therefore, she reviewed her notes.",
+                "method": "recent-mention heuristic"
+            },
+            {
+                "antecedent": "Rutva",
+                "pronoun": "her",
+                "sentence": "Therefore, she reviewed her notes.",
+                "method": "recent-mention heuristic"
+            }
+        ],
+        "note": "Coreference links are heuristic predictions and may be incorrect."
+    },
+    "discourse_relations": [
+        {
+            "connective": "because",
+            "relation": "reason"
+        },
+        {
+            "connective": "However",
+            "relation": "contrast"
+        },
+        {
+            "connective": "Therefore",
+            "relation": "result"
+        }
+    ],
+    "indirect_requests": [
+        {
+            "text": "Could you explain the difficult question?",
+            "inferred_intent": "Polite request",
+            "method": "rule-based pattern matching"
+        }
+    ]
+}
